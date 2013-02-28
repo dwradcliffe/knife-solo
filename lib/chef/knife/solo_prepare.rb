@@ -51,6 +51,7 @@ class Chef
       end
 
       def validate!
+        ui.msg "Validating options..."
         validate_ssh_options!
       end
 
